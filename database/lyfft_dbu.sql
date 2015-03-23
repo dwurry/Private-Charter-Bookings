@@ -1,0 +1,7 @@
+CREATE USER 'lyfft_dbu'@'localhost' IDENTIFIED BY 'adfEgty64!hw35#Gbu54&s3eRga';
+
+GRANT USAGE ON *.* TO 'lyfft_dbu'@'%' 
+	IDENTIFIED BY 'adfEgty64!hw35#Gbu54&s3eRga' WITH MAX_QUERIES_PER_HOUR 0 MAX_CONNECTIONS_PER_HOUR 0 
+	MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;
+	
+GRANT ALL PRIVILEGES ON `lyfft_db`.* TO 'lyfft_dbu'@'%';

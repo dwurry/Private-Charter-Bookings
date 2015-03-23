@@ -1,0 +1,7 @@
+.grid-view-loading {
+	background: url(loading.gif) no-repeat;
+}
+
+.grid-view {
+	padding: 150px 0;
+}

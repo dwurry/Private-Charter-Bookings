@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>New Quote br-op-br-bu-confirm</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Quote br-op-br-bu-confirm</td></tr>
+</thead><tbody>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>broker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/lyfft/httpdocs/us/newQuote/0</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Tom</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Selfridge</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>customer+4@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_company</td>
+	<td>Lyfft</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Skigh</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Daily</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>customer+1@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_company</td>
+	<td>Lyfft</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Jack</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Sparrow</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>customer+3@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Warren</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Roads</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>customer+3@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>W</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Warren</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Roads</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>customer+2@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

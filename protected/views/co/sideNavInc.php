@@ -1,0 +1,2 @@
+<?php
+$this->menu = array(array('label'=>'Edit My Account','url'=>array('co/updateUser')),array('label'=>'Edit My Operator','url'=>array('co/updateOperator')),array('label'=>'Edit My Settings','url'=>array('co/updateSettings')),array('label'=>'Add Aircraft','url'=>array('operatorAircraft/findn')),array('label'=>'View Quotes','url'=>array('co/quotes')));

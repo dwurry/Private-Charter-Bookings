@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost/" />
+<title>New Quote br-op-br-buyer-confirm</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Quote br-op-br-buyer-confirm</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/lyfft/httpdocs/site/login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>broker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(text(),'New<br />								Quote')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_dep_address</td>
+	<td>ca35</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_arr_address</td>
+	<td>psp</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_num_trav</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Leg_dep_time</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=20</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Leg_retTime</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.ui-icon.ui-icon-circle-triangle-e</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_retTime</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=Leg_customerEmail</td>
+	<td>label=Tom Selfridge : customer+4@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addLeg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_arr_address</td>
+	<td>pga</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Leg_dep_time</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=23</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addLeg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_arr_address</td>
+	<td>ca35</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Next</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=25</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addLeg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=Leg_passengerEmail</td>
+	<td>label=Warren Roads : customer+2@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>chop1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even_BLUE &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Remove Aircraft from Consideration'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=tr.even_BLUE &gt; td.button-column &gt; a.delete &gt; img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=tr.even_BLUE &gt; td.button-column &gt; a.delete &gt; img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Remove Aircraft from Consideration'])[4]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitBids</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>broker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falocn</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Update&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=BrokerDetail_fixed_fee</td>
+	<td>460.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=recalc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=BrokerDetail_fixed_fee</td>
+	<td>510.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=recalc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=BrokerDetail_fixed_fee</td>
+	<td>520.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=recalc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=BrokerDetail_fixed_fee</td>
+	<td>525.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=recalc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=BrokerDetail_contract</td>
+	<td>(Selenium Test)<br /><br />1) Engagement. Tom Selfridge of US Army (“Client&quot;) hereby engages XO Jet to act as a its broker to arrange for the charter services described on the charter itinerary (&quot;Charter Itinerary&quot;), to which this standard terms and conditions charter broker agreement (the &quot;Agreement&quot;) is annexed, on behalf of Client from third party certified air carriers operating under Part 135 of the Federal Aviation Administration (&quot;FAA&quot;) regulations (&quot;Section 14 Code of Federal Regulations&quot;).<br /><br />2) General Disclosures. XO Jet does not own or operate aircraft and is a contracted agent of a network of FAA Part 135 Air Carriers. XO Jetis acting solely as a broker and is not an air carrier and is not operating the flights. Client authorizes XO Jet to book on Client\'s behalf the charter services set forth on the Charter Itinerary. All requests for service are subject to acceptance by XO Jet<br /><br />The air charter suppliers have sole responsibility, liability and control of all aspects of the aircraft charter services provided to Client, including without limitation, (i) aircraft availability and pricing, (ii) the commencement and termination of scheduled flights, (iii) the operation, regulation condition and safety of the flight, and (iv) passengers, baggage, cargo and other people and events associated with your air travel, such as crew performance and catering services. The air charter suppliers and/or their pilots will be solely responsible for all decisions regarding safety determinations with respect to the commencement, operation and termination of flights.<br /><br />Neither the air charter suppliers nor XO Jet shall have liability or responsibility for delay, cancellation or failure to furnish any service to be provided to Client when caused by mechanical difficulty, weather conditions, acts of God, acts of nature, acts of civil or military authority, acts of terrorism, civil commotion, war or warlike operations or imminence thereof, strikes or labor disputes, blockade, embargo, government regulation, law, rule of authority, acts or omissions of government authorities including all civil aviation authorities, requisition of aircraft by public authorities, breakdown or accident to the aircraft, mechanical failure, lack of essential supplies or parts, or if the safety of passengers and/or property is deemed by the aircraft commander or the carrier\'s operational supervisors to be in jeopardy, or for any causes beyond their reasonable respective control.<br /><br />XO Jet\'s sole responsibility shall be to act as a broker to arrange the flight(s) and, as applicable, ground and other arrangements.&nbsp;&nbsp;Thereafter, the air charter supplier and/or air carrier shall be solely responsible for any delay, cancellation or failure to furnish flight(s). The air charter supplier and/or air carrier assume responsibility for Client and Client\'s agent, guests, passengers and employees safety, schedule, baggage, cargo, business and personal activities and financial ramifications associated with the reservations and travel arranged by XO Jet and performed by the air charter suppliers and/or air carrier.<br /><br />3) Reservations/Charter Itinerary. Your Charter Itinerary will delivered by XO Jet via facsimile or email. It will provide your (i) confirmation number, (ii) estimated price quote, (iii) date(s) and time(s) of travel, (iv) flight segments, (v) aircraft type, and (vi) other requests that were specified when booking your flight(s). Upon booking your flight(s), we will request that you sign and return a copy of the Charter Itinerary signifying your confirmation of its contents.<br /><br />4) Cancellations. Any change(s) in your Charter Itinerary, including, but not limited to, date(s) and/or time(s) of flight(s), number of passengers, and type of aircraft may be deemed a cancellation. You will not be charged for any change(s) to your Charter Itinerary or cancelled domestic flight(s) if such changes and/or cancellation(s) are made more than ninety-six (96) hours prior to the scheduled departure date of such flight(s) and more than seven (7) calendar days prior to the departure date of any international flight(s), except for those expenses and/or cancellation fees specifically incurred by XO Jet directly relating to your flight(s) or when as advance deposit is required and Client has been informed of the cancellation fee(s). Any cancellation of all or any portion of a confirmed Charter Itinerary maybe subject to the terms and conditions imposed by the specific air carrier selected. XO Jet assumes no responsibility for the disposition or cancellation of any reservation, either by Client or the specific air carrier selected. XO Jet reserves the right to change the terms of its cancellation policy at anytime.<br /><br />5) Cancellation Fees. Cancellation fees may include, but are not limited t: (i) costs incurred for specifically positioning and repositioning an aircraft and flight crew as relating to a cancelled flight, (ii) flight charges at the rate of two (2) flight hours of operation for each day of the cancelled Charter Itinerary, and/or (iii) any fees incurred by XO Jet as a result of Client\'s cancellation. <br />&nbsp;&nbsp;&nbsp;A)&nbsp;&nbsp;Domestic Flights. Any reservations or portion(s) thereof cancelled within seventy-two (72) hours of the scheduled departure date is subject to a cancellation charge of up to one hundred (100%) percent of the quoted price of the fight(s).<br />&nbsp;&nbsp;&nbsp;B)&nbsp;&nbsp;International Flights. Any reservations or portion(s) thereof cancelled within seven (7) days of the scheduled departure date is subject to a cancellation charge of up to one hundred (100%) percent of the quoted price of the fight(s).<br />&nbsp;&nbsp;&nbsp;C)&nbsp;&nbsp;Peak Travel Periods. The peak travel periods (&quot;Peak Travel Periods&quot;) include (i) New Year\'s Day, (ii) Super Bowl Day, (iii) President\'s Day, (iv) Easter Sunday, (v) Passover, (vi) Memorial Day, (vii) July 4th, (viii) Labor Day, (ix) Thanksgiving Day, (x) Christmas Day (xi) the four (4) days prior to any of the foregoing days, and (xii) the two (2) days following any of the foregoing days, except when any of the foregoing days is a Thursday, then the Peak Travel Periods shall include the three (3) days following any of the foregoing days.&nbsp;&nbsp;The cancellation of any confirmed flight within seven (7) days of departure during Peak Travel Periods will result in a cancellation charge of up to one hundred (100%) percent of the cost of the quoted price for the flight(s).<br />&nbsp;&nbsp;&nbsp;D)&nbsp;&nbsp;Confirmed Departures. Departures confirmed (&quot;Confirmed Departures&quot;) within seven (7) days of Peak Travel Periods are non refundable.<br />&nbsp;&nbsp;&nbsp;E)&nbsp;&nbsp;One-Way Charter Flights. All one-way charter flight reservations are non-cancelable and nonrefundable. Cancellations of one-way charter flight(s) will result in a cancellation charge of one hundred (100%) percent of the cost of the quoted price for the flight(s).<br /><br />6) Price Quotes. All cost estimates provided to Client for each specific Charter Itinerary is subject to the following: <br />&nbsp;&nbsp;&nbsp;A) Federal Excise and Departure Taxes. Domestic and international flights may be subject to certain federal excise and departure taxes.&nbsp;&nbsp;Client shall pay such any applicable federal excise and departure taxes, using the current rate applicable to each Charter Itinerary, unless otherwise specified.<br />&nbsp;&nbsp;&nbsp;B) Additional Charges. The cost estimate provided by XO Jet to Client will include estimates for certain items, however Client shall pay the actual amount of any applicable taxes, over-flight permits, landing charges, catering costs, flight phone, customs fees, crew trip expenses, deicing, and other expenses relating to the services provided to Client should these charges exceed the original cost estimate provided by XO Jet. In addition, Client agrees to pay any and all additional charges arising from Client\'s changes to the Charter Itinerary or any other actions taken by Client resulting in an increase in charges from the original cost estimate and/or Charter Itinerary.<br /><br />7) Payment. Client agrees to pay all costs, fees and expenses as set forth on the cost estimate and/or Charter Itinerary, as well as all additional costs and expenses relating to Client\'s flight(s), including but not limited to taxes, surcharges and fees set forth in Section 6B of this Agreement, and damages set forth in Section 8(g) of this Agreement.<br />&nbsp;&nbsp;&nbsp;A) Terms. XO Jet may require either (i) payment in advance, or (ii) an acceptable credit card guarantee. Any failure to make any requested payment to XO Jet at least seven (7) days prior to any scheduled flight may result in cancellation of any flight in XO Jet\'s sole discretion.<br />&nbsp;&nbsp;&nbsp;B)&nbsp;&nbsp;Credit Card Payments. By providing his, her or its credit card information, Client authorizes XO Jet to obtain payment from the issuer of the credit card and Client agrees to pay an administrative fee of five (5%) percent, if such payment is made by credit card. If Client does not make payment to XO Jet by other means within five (5) days after completion of Client\'s Charter Itinerary and Client has provided XO Jet with his, her or its credit card information, thereby authorizing XO Jet to charge Client\'s credit card, XO Jet shall charge to Client\'s credit cardany unpaid monies due to XO Jet. Client agrees to perform the obligations set forth in the agreement with his, her or its credit card issuer and shall not dispute or contest the validity of the charges of XO Jet<br />&nbsp;&nbsp;&nbsp;C)&nbsp;&nbsp;Late Payments. Client will pay XO Jet (i) interest at the rate of one (1%) percent per month on any charges outstanding more than thirty(30) days past due, and (ii) any reasonable costs and attorneys\' fees incurred in the collection of any past due fees, expenses and charges due to XO Jet<br /><br />8) Force Majeure. XO Jet will not be deemed to be in breach of its obligations hereunder or have any liability for any delay, cancellation or damage arising in whole or in part from any act of God, act of nature, acts of civil or military authority, strike or labor dispute, mechanical failure, lack of essential supplies or parts or any cause beyond the direct control of XO Jet, the air charter suppliers or the air carrier.<br /><br />9) Client\'s Responsibilities. Clients and Client\'s agents, guests, passengers and employees, if applicable, shall not engage in any act or possess any substance or allow cargo to contain any substance that may result in the seizure or forfeiture, or unsafe operation of the aircraft used in the charter contracted for Client by XO Jet<br /><br />10) Release. Client, on behalf of her, him, or itself, it its agents, employees, guests, invitees, passengers, family members or estate, hereby releases XO Jet, its affiliates, successors or assigns, and any present or former officers, directors, shareholders, employees, agents, legal representatives and attorneys (the &quot;XO Jet Parties&quot;) from any liabilities, losses, damages, penalties, costs and expenses on account of any claim, suit, action, demand, proceeding or anything of a similar nature made or brought against any of the XO Jet Parties as a result of the services performed by any of them on behalf of Client or such other parties.<br /><br />11) Damages. In no event will XO Jet be liable to Client, its agents, employees, guests, passengers, family members or estate for any direct, indirect, incidental or consequential damages, whether arising in contract or in tort. To the extent that any damage release or waiver by Client shall be unenforceable, then in no event shall XO Jet\'s liability to Client, its agents, employees, guests, passengers, family members or estate for any event or injury be greater that the amounts paid by Client to XO Jet in connection with such flight.&nbsp;&nbsp;If the Client\'s trip involves an ultimate destination or stop in a country other than the country of departure, the Warsaw Convention may be applicable and the Convention governs and in most cases limits the liability of the air carrier for death or personal injury and for loss of or damage to baggage.<br /><br />12) Regulations. This Agreement is subject to all applicable rules, regulations, approvals and certifications in effect from time to time including, but not limited to, those promulgated by the FAA, which now or hereafter may be imposed or required.<br /><br />13) Termination. In the event of Client\'s breach of any term of this Agreement, XO Jet may terminate the Agreement and cease to provide any remaining services under this Agreement. Client shall remain responsible for all sums that are due to XO Jet, which shall have the right to damages against Client for all losses and costs arising from Client\'s breach of this Agreement and to all other remedies available to XO Jet at law or in equity (including, without limitation, attorneys fees, costs and expenses). Notwithstanding the foregoing, Client shall remain liable and responsible for all payment obligations under this agreement.<br /><br />14) Exclusions, Omissions, Warranties. XO Jet will not be responsible to Client for any misrepresentations made by any air charter suppliers or air carriers, whether on XO Jet\'s website or other promotional material or otherwise. Any exclusions or omissions by any air charter suppliers or air carriers, whether express or implied, are not the responsibility of XO Jet. XO Jet makes no representations or warranties of any kind, either express or implied, as to any matter including without limitation, implied warranties of fitness of particular purpose, merchantability or otherwise.<br /><br />15) Severability. If any provision of this Agreement or compliance by any of the parties with any provision of this Agreement constitutes a violation of any law, or is or becomes unenforceable or void, then such provision, to the extent only that it is in violation of law, unenforceable or void, shall be deemed modified to the extent necessary so that it is no longer in violation of law, unenforceable or void, and such provision will be enforced to the fullest extent permitted by law. If such modification is not possible, said provision, to the extent that it is in violation of law, unenforceable or void, shall be deemed severable from the remaining provisions of this Agreement, which provisions will remain binding on the parties.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />16) Waivers. No failure on the part of either XO Jet or Client to exercise, and no delay in exercising, any right or remedy hereunder will operate as a waiver thereof; nor will any single or partial waiver of a breach of any provision of this Agreement operate or be construed as a waiver of any subsequent breach; nor will any single or partial exercise of any right or remedy hereunder preclude any other or further exercise thereof or the exercise of any other right or remedy granted hereby or by law.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />17) Indemnification. Client agrees to save, indemnify, hold harmless and defend the XO Jet Parties, from and against any and all actions, causes, claims, damages, losses, penalties, demands, obligations or liabilities, expenses or disbursements (including without limitation, reasonable costs and attorney\'s fees) against any loss, damage or expense incurred by XO Jet by reason of any action or omission of Client, its agents, employees, guests, invitees, passengers, or family members arising from or relating to this Agreement. Furthermore, Client agrees to pay for any damage to the charter aircraft caused by Client, its agents, employees, guests, invitees, passengers, or family members, excluding normal wear and tear to charter aircraft.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />18) Dispute Resolution/Governing Law. Any claim arising out of Client\'s failure to pay for services rendered or any other amounts due and owing or claims under this Agreement shall be (i) resolved exclusively in the Courts in the State of New York, County of Suffolk, and (ii)be construed, interpreted and enforced in accordance with, and shall be governed by the laws of the State of New York, both procedural and substantive, without regard to the principles of conflicts of laws. Client hereby submits to voluntary jurisdiction in the Courts in the State of New York, County of Suffolk and waves its rights to (i) assert any counterclaim against the XO Jet Parties, and (ii) claim inconvenient forum.<br /><br />19) Jurisdiction and Venue. The parties expressly agree and consent to the jurisdiction and venue of the Courts of the State of New York relating to interpretation and the enforcement of this Agreement in any litigation between the parties hereto. Any process involving the Courts or the judiciary shall have as the exclusive place of venue the Supreme Court of the State of New York, Suffolk County and the parties\' consent that this venue is convenient, reasonable and acceptable.<br /><br />20) Entire Agreement. This agreement constitutes the entire agreement and understanding of the Parties and no amendment, modification or waiver of any provision herein shall be effective unless in writing and executed by XO Jet and Client. Any and all prior agreements, understandings and representations are hereby terminated and cancelled in their entirety and are of no further force and effect. Any terms and conditions contained within the Charter Itinerary are incorporated by reference herein. Each party acknowledges that no other, or any agent or attorney of any other party, has made any promise, representation or warranty whatsoever, express or implied, not contained in this Agreement concerning its subject matter, to induce such party to enter into the Agreement, and acknowledges that it has not executed this Agreement in reliance on any such promise, representation or warranty, and that there are no other agreements or understandings relating to this Agreement that are not contained in this Agreement.<br /><br />21) Assignability. This Agreement is binding upon Client and may not be assigned by Client.<br /><br />22) Counterparts. This Agreement may be executed in on or more counterparts, each of which shall be deemed to be duplicate originals, and one of the same Agreement. Facsimile/Digital signatures shall be considered original, legal and binding signature. By signing this Agreement, Client hereby agrees to all terms and conditions herein for the purposes of each and every flight chartered and/or arranged for Client by XO Jet until Client is notified by XO Jet of a change of terms.</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//input[@name='save'])[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitBids</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>cust4</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Update&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=BrokerDetail_passengerEmail</td>
+	<td>label=Warren Roads : customer+2@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=BrokerDetail_passengerEmail</td>
+	<td>label=Tom Selfridge : customer+4@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=BrokerDetail_passengerEmail</td>
+	<td>label=Jack Sparrow : customer+3@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=BrokerDetail_agree</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitPayment</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[creditCard_name]</td>
+	<td>Tom Selfridge</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[3]</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[4]</td>
+	<td>111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>2015</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_firstName]</td>
+	<td>Tom</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_lastName]</td>
+	<td>Selfridge</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_company]</td>
+	<td>Lyfft</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_phone]</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_fax]</td>
+	<td>123-456-7899</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_email]</td>
+	<td>www.usarmy.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_email]</td>
+	<td>customer+4@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[creditCard_name]</td>
+	<td>Tom Selfridge</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[3]</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[4]</td>
+	<td>111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>2015</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>broker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>chop1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>cust1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Passenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//img[@alt='Update'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=BrokerDetail_agree</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Passenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>chop1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>broker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Customers</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>chop1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(text(),'New<br />								Quote')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=Leg_customerEmail</td>
+	<td>label=Skigh Daily : customer+1@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_dep_address</td>
+	<td>odn</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=yschsp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=yschsp</td>
+	<td>norwood ma airport call letters</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.sbb</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_dep_address</td>
+	<td>owd</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_arr_address</td>
+	<td>mvy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Leg_num_trav</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=18</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=Leg_retTime</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@type='button'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even_BLUE &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=img[alt=&quot;Remove Aircraft from Consideration&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Remove Aircraft from Consideration'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Remove Aircraft from Consideration'])[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@alt='Remove Aircraft from Consideration'])[7]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertConfirmation</td>
+	<td>Are you sure you want to delete this item?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#yw1 &gt; input[name=&quot;submitBids&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>cust1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Passenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Rob</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Porter</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>cuatomer+</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>cuatomer+8@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_company</td>
+	<td>The Daily News</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=newCustomer</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Polly</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_fname</td>
+	<td>Polly T.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_lname</td>
+	<td>Sean</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_email</td>
+	<td>customer+9@lyfft.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_phone</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserTraveler_weight</td>
+	<td>150</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Create</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even_BLUE &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Update&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=BrokerDetail_passengerEmail</td>
+	<td>label=Polly T. Sean : customer+9@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=BrokerDetail_passengerEmail</td>
+	<td>label=Rob Porter : cuatomer+8@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=BrokerDetail_passengerEmail</td>
+	<td>label=Skigh Daily : customer+1@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=addPassenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=BrokerDetail_agree</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=submitPayment</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[creditCard_name]</td>
+	<td>Skigh Daily</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[3]</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[4]</td>
+	<td>111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[5]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@type='text'])[6]</td>
+	<td>2015</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_firstName]</td>
+	<td>Skigh</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_lastName]</td>
+	<td>Daily</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_company]</td>
+	<td>The Parts Company</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_phone]</td>
+	<td>123-456-7890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_fax]</td>
+	<td>123-456-7899</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_website]</td>
+	<td>flyingParts.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=BraintreeCCForm[customer_email]</td>
+	<td>customer+1@lyfft.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input[type=&quot;submit&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Passenger</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=yui_3_10_0_1_1424229792033_325</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=yui_3_15_0_1_1424229854126_343</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>broker</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>customer</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even_RED &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>chop1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_RED &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.odd_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=tr.even_GREEN &gt; td.merge &gt; a.view &gt; img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//img[@alt='View'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//img[@alt='View'])[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_username</td>
+	<td>user3</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=LoginForm_password</td>
+	<td>falcon</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=Login</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dashboard</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;View&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>xpath=(//img[@alt='Update'])[5]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=img[alt=&quot;Update&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=span.username.username-hide-mobile</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log Out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
